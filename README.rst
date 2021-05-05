@@ -35,7 +35,7 @@ You probably also want the following:
 
     .. code-block:: html
 
-        <link rel="apple-touch-icon-precomposed" href="path/to/favicon-152.png">
+        <link rel="apple-touch-icon-precomposed" href="path/to/favicon-180.png">
    
 2. IE 10 Metro tile icon (Metro equivalent of apple-touch-icon):
 
@@ -109,6 +109,8 @@ If you're obsessive, you want all this too:
         <link rel="icon" href="/path/to/favicon-32.png" sizes="32x32">
 3. Favicon Chrome for Android
 
+    .. code-block:: html
+
         <link rel="shortcut icon" sizes="196x196" href="/path/to/favicon-196.png">
         
 The Images
@@ -129,7 +131,7 @@ If you also sort of care about iOS and Android but are lazy:
 ======= =============== =======================================================================
 Size    Name            Purpose
 ======= =============== =======================================================================
-152x152 favicon-152.png General use iOS/Android icon, auto-downscaled by devices.
+180x180 favicon-180.png General use iOS/Android icon, auto-downscaled by devices.
 ======= =============== =======================================================================
 
 But keep in mind that icons with complex detail often don't downscale well.
@@ -195,7 +197,7 @@ Pinned tabs in Safari 9+ use an SVG vector mask for the favicon instead of any o
 
     .. code-block:: html
     
-    <link rel='mask-icon' href='icon.svg' color='#ff0000'>
+    	<link rel='mask-icon' href='icon.svg' color='#ff0000'>
 
 Helpful Tools
 -------------
@@ -315,7 +317,10 @@ Contribute!
 -----------
 
 Send pull requests if you have anything to add/change, providing citations
-and justification. I'd love to see this improve.
+and justification. I'd love to see this improve. 
+
+Note on March 6, 2020: I'm behind on merging PRs but am slowly catching up. 
+Bear with me while I get this repo caught up. ❤️
 
 References
 ----------
